@@ -1,9 +1,9 @@
-package com.fz.controller.admin;
+package com.iblog.controller.admin;
 
-import com.fz.bean.RespBean;
-import com.fz.bean.Role;
-import com.fz.bean.User;
-import com.fz.service.UserService;
+import com.iblog.bean.RespBean;
+import com.iblog.bean.Role;
+import com.iblog.bean.User;
+import com.iblog.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * @author fz
+ * @author iblog
  */
 @Slf4j
 @RestController

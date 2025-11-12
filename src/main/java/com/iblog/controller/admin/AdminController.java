@@ -1,8 +1,8 @@
-package com.fz.controller.admin;
+package com.iblog.controller.admin;
 
-import com.fz.bean.Article;
-import com.fz.bean.RespBean;
-import com.fz.service.ArticleService;
+import com.iblog.bean.Article;
+import com.iblog.bean.RespBean;
+import com.iblog.service.ArticleService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  * 超级管理员专属Controller
- * @author fz
+ * @author iblog
  */
 @RestController
 @RequestMapping("/admin")

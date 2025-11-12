@@ -1,4 +1,4 @@
-package com.fz.config;
+package com.iblog.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

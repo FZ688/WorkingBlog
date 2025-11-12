@@ -1,4 +1,4 @@
-package com.fz.config;
+package com.iblog.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

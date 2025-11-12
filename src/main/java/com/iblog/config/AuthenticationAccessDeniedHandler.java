@@ -1,4 +1,4 @@
-package com.fz.config;
+package com.iblog.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.access.AccessDeniedException;
@@ -12,7 +12,7 @@ import java.io.PrintWriter;
 
 
 /**
- * @author fz
+ * @author iblog
  */
 @Slf4j
 public class AuthenticationAccessDeniedHandler implements AccessDeniedHandler {

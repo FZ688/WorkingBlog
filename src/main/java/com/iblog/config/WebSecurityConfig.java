@@ -1,6 +1,6 @@
-package com.fz.config;
+package com.iblog.config;
 
-import com.fz.service.UserService;
+import com.iblog.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpMethod;
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 
 /**
- * @author fz
+ * @author iblog
  */
 @Configuration
 @Slf4j
